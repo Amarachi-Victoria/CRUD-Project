@@ -1,7 +1,10 @@
 const addItemButton = document.getElementById("add-button");
 const modalOverlay = document.getElementById("modal-overlay");
+const closeIcon = document.getElementById("close-icon");
+const form = document.getElementById("form")
 const nameOfItem = document.getElementById("name-of-item");
-const closeIcon = document.getElementById("close-icon")
+const linkToItem = document.getElementById("link-to-item");
+const descriptionOfItem = document.getElementById("description-of-item");
 
 
 // Reveal and hide modal overlay
@@ -27,3 +30,6 @@ function closeMOdalOverlay() {
 
     }
 }
+
+
+// Collect and handle form data
